@@ -41,7 +41,7 @@ steps:
       - name: docker
         path: /var/run/docker.sock
     settings:
-      dockerfile: .beagle/kasm-debian-bookworm-desktop.dockerfile
+      dockerfile: .beagle/nvidia-driver.dockerfile
       base: registry-vpc.cn-qingdao.aliyuncs.com/wod/ubuntu:v22.04-amd64
       repo: wod/gow
       version: nvidia-driver-560.31.02
